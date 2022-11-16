@@ -1,0 +1,191 @@
+body {
+    background-color: #627281;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header {
+    background-color: #BFBDC0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+footer {
+    background-color: #B29F91;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: 50px;
+}
+
+.title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+#ghost, #writer {
+    color: #FDE2B1;
+}
+#ghost:hover {
+    color: black;
+}
+#writer:hover {
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.wrapper-writer1 {
+    align-items: center;
+    flex-direction: column;
+}
+
+.writer1-back {
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.writer1-back-a {
+    margin: 0;
+}
+.writer1-back-a:hover {
+    color: wheat;
+}
+
+.writer1-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    width: inherit;
+    font-family:inherit;
+    font-size: 75%;
+    text-align: center;
+    caret-color: white;
+}
+
+.writer1-name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    font-variant: petite-caps;
+    text-align: center;
+}
+
+.content-writer1-name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.writer1-title {
+    color: wheat;
+}
+
+.butt-div {
+    background-color: #627281;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.butt {
+    display: inline-block;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 1px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    background: #627281;
+    border-radius: 25px;
+    } 
+.butt:hover { background: rgba(255,255,255,.2); }
+.butt:active { background: white; }
+
+.ghost1-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.ghost-input {
+    border: 2px solid #FCEDD2 ;
+    background-color: rgba(255,255,255,.2) ;
+    color: inherit;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-family:inherit;
+    font-size: 75%;
+    text-align: left;
+    caret-color: white;
+    color: wheat;
+    font-size: 20px;
+}
+
+.ghost-input-div {
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+}
+
+.ghost-syn {
+    border: 2px solid #FCEDD2 ;
+    background-color: rgba(255,255,255,.2) ;
+    color: inherit;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-family: inherit;
+    font-size: 75%;
+    text-align: left;
+    caret-color: white;
+}
+
+.ghost-syn-div {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
