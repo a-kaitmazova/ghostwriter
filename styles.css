@@ -4,27 +4,19 @@ body {
     flex-direction: column;
     margin: 0;
 }
-header {
+/* header {
     background-color: #BFBDC0;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 80px;
-}
-
-footer {
-    background-color: #B29F91;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-}
+} */
 
 .wrapper {
     position: absolute;
-    height: 100%;
+    height: 90%;
+    bottom: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -40,10 +32,18 @@ footer {
     font-size: 100px;
 }
 
+.title-butts{
+    color: black;
+}
+
 a:-webkit-any-link {
   text-decoration: none;
-  color: black;
 }
+
+a:visited {
+    color: black;
+}
+
 #ghost, #writer {
     color: #FDE2B1;
 }
@@ -54,34 +54,26 @@ a:-webkit-any-link {
     color: black;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: 'Amatic SC', cursive;
-    color: black;
-    margin: 20px;
-    font-size: 30px;
-}
-
 .wrapper-writer1 {
     align-items: center;
     flex-direction: column;
 }
 
-.writer1-back {
+.back-button {
     font-family: 'Amatic SC', cursive;
-    color: black;
     margin: 20px;
     font-size: 30px;
-    position: absolute;
-    top: 0;
+    width: min-content;
     left: 0;
+    position: absolute;
+
 }
 
-.writer1-back-a {
+.back-button-a {
     margin: 0;
+    color: black;
 }
-.writer1-back-a:hover {
+.back-button-a:hover {
     color: wheat;
 }
 
@@ -142,15 +134,20 @@ a:-webkit-any-link {
     background: #627281;
     border-radius: 25px;
     } 
+.butt:visited { color: white;}
 .butt:hover { background: rgba(255,255,255,.2); }
 .butt:active { background: white; }
 
-.ghost1-content {
+.writer2-content, .ghost1-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    width: 1000px;
 }
 
-.ghost-input {
+.writer2-input, .ghost1-input {
     border: 2px solid #FCEDD2 ;
     background-color: rgba(255,255,255,.2) ;
     color: inherit;
@@ -158,34 +155,42 @@ a:-webkit-any-link {
     width: 100%;
     height: 100%;
     font-family:inherit;
-    font-size: 75%;
     text-align: left;
     caret-color: white;
     color: wheat;
+    resize: none;
+    border-radius: 15px;
     font-size: 20px;
 }
-
-.ghost-input-div {
-    width: 800px;
-    height: 500px;
-    margin: 10px;
+.writer2-input-text, .ghost1-input-text {
+    font-size: 20px;
+}
+.writer2-input-syn, .ghost12-input-syn {
+    font-size: 18px;
 }
 
-.ghost-syn {
-    border: 2px solid #FCEDD2 ;
-    background-color: rgba(255,255,255,.2) ;
-    color: inherit;
-    outline: none;
+.writer2-input-div, .ghost1-input-div {
+    height: inherit;
+    margin: 10px;
+}
+.writer2-input-syn-div, .ghost1-input-syn-div {
+    width: 20%;
+}
+.writer2-input-text-div, .ghost1-input-text-div {
+    width: 80%;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 100%;
-    font-family: inherit;
-    font-size: 75%;
-    text-align: left;
-    caret-color: white;
-}
-
-.ghost-syn-div {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
+    height: 10%;
+    background-color: #bfbdc0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    margin: 0px;
+    font-size: 30px;
 }
