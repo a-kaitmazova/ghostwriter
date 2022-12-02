@@ -179,3 +179,19 @@ a:visited {
 .syn-input-div {
     width: 20%;
 }
+
+.writer-text_name-input {
+    caret-color:#627281;
+    border-bottom: 5px solid #627281;
+    font-size: xxx-large;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.writer-text_name-input:hover {
+    border-bottom: 5px solid #fcedd2;
+}
+
+.writer-text_name {
+    width: 750px;
+}
