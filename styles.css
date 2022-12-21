@@ -196,3 +196,13 @@ a:visited {
 ::placeholder {
     color: #627281;
 }
+
+#lib {
+    background: #FAFAFA;
+    border-radius: 100px;
+    width: 137px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
