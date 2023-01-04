@@ -1,0 +1,256 @@
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #c6cdda;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.wrapper {
+    position: absolute;
+    height: 90%;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
+
+.title-butts{
+    color: black;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#ghost, #writer {
+    color: black;
+}
+#ghost:hover {
+    color: #8C7D85;
+}
+#writer:hover {
+    color: #8C7D85;
+}
+
+.wrapper-writer1 {
+    align-items: center;
+    flex-direction: column;
+}
+
+.back-button {
+    font-family: 'Amatic SC', cursive;
+    margin: 20px;
+    font-size: 30px;
+    width: min-content;
+    left: 0;
+    position: absolute;
+
+}
+
+.back-button-a {
+    margin: 0;
+    color: black;
+}
+.back-button-a:hover {
+    color: #b0a6ab;
+}
+
+.send-button {
+    font-family: 'Amatic SC', cursive;
+    margin: 20px;
+    font-size: 30px;
+    width: min-content;
+    right: 0;
+    position: absolute;
+}
+.send-button-a {
+    margin: 0;
+    padding: 4px;
+    background: #fffa66;
+    border-radius: 10px;
+}
+.send-button-a:hover {
+    box-shadow: 0 0 5px 5px #fdd021;
+}
+
+.name-input {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    width: inherit;
+    font-family:inherit;
+    font-size: 75%;
+    text-align: center;
+    caret-color: #3b4b60;
+}
+
+.writer-name-input {
+    margin: 70px;
+}
+
+.name-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    font-variant: petite-caps;
+    text-align: center;
+}
+
+.content-writer1-name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.writer1-title {
+    color: wheat;
+}
+
+.butt-div {
+    background-color: #fafafa;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.butt {
+    display: inline-block;
+    color: #3b4b60;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 1px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    background: #fafafa;
+    border-radius: 25px;
+    } 
+.butt:visited { color: #3b4b60;}
+.butt:hover { background: #b0a6ab; }
+.butt:active { background: #3b4b60; }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    width: 1000px;
+}
+
+.text-input {
+    border: 2px solid #b0a6ab;
+    background-color: #E4E5EA;
+    color: inherit;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-family:inherit;
+    text-align: left;
+    caret-color: white;
+    color: #3b4b60;
+    resize: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.syn-input-font_size {
+    font-size: 18px;
+}
+
+.text-input-div {
+    height: inherit;
+    margin: 10px;
+    width: 80%;
+}
+
+.syn-input-div {
+    width: 20%;
+}
+
+.text_name-input {
+    caret-color:#627281;
+    font-size: xxx-large;
+}
+
+.writer-text_name {
+    width: 750px;
+}
+
+::placeholder {
+    color: #627281;
+}
+
+#lib {
+    background: #FAFAFA;
+    border-radius: 100px;
+    width: 137px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lib-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+}
+.card {
+    width: max-content;
+    height: min-content;
+    margin: 10px;
+    border: 1px solid #c6cdda;
+    border-radius: 10px;
+    padding: 6px;
+}
+.card-prop-p{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.story-name-a {
+    font-weight: 600;
+}
+.story-name-a:hover { color: crimson;}
+
+.ghosts-p {
+    color: #627281;
+}
