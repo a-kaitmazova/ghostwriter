@@ -236,21 +236,15 @@ a:visited {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
-.lib-content::after {
+.lib-content_filler {
     content: ' ';
     width: 25%;
-    float: right;
-    background-color: rgb(225, 225, 225, .4);
-}
-.lib-content::before{
-    content: ' ';
-    width: 25%;
-    float: left;
+    height: 100%;
     background-color: rgb(225, 225, 225, .4);
 }
 .card {
