@@ -273,6 +273,7 @@ a:visited {
 
 .story-name-a {
     font-weight: 600;
+    color: black;
 }
 .story-name-a:hover { color: crimson;}
 
