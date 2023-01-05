@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Comfortaa', cursive;
     color: black;
     margin: 0px;
     font-size: 30px;
@@ -37,6 +37,10 @@ body {
 
 .title-butts{
     color: black;
+}
+
+#lib-butt {
+    padding: 1em;
 }
 
 a:-webkit-any-link {
@@ -63,13 +67,12 @@ a:visited {
 }
 
 .back-button {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Comfortaa', cursive;
     margin: 20px;
     font-size: 30px;
     width: min-content;
     left: 0;
     position: absolute;
-
 }
 
 .back-button-a {
@@ -81,7 +84,7 @@ a:visited {
 }
 
 .send-button {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Comfortaa', cursive;
     margin: 20px;
     font-size: 30px;
     width: min-content;
@@ -89,14 +92,20 @@ a:visited {
     position: absolute;
 }
 .send-button-a {
-    margin: 0;
-    padding: 4px;
+    font-size: 30px;
     background: #fffa66;
     border-radius: 30px;
-    padding: 3px 10px 3px 10px;
+    padding: .3em;
+    display: inline-block;
+    user-select: none;
+    outline: none;
+    transition: 0.2s;
 }
 .send-button-a:hover {
-    box-shadow: 0 0 5px 5px #fdd021;
+    color: #fda921;
+}
+.send-button-a:active {
+    background-color: #efe935;
 }
 
 .name-input {
@@ -218,8 +227,8 @@ a:visited {
 #lib {
     background: #FAFAFA;
     border-radius: 100px;
-    width: 137px;
-    height: 63px;
+    width: min-content;
+    height: min-content;
     display: flex;
     justify-content: center;
     align-items: center;
