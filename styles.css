@@ -37,6 +37,7 @@ body {
 
 .title-butts{
     color: black;
+    font-size: 75%
 }
 
 #lib-butt {
@@ -233,6 +234,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 110%;
 }
 
 #lib-title {
