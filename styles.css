@@ -160,7 +160,7 @@ a:visited {
     } 
 .butt:visited { color: #3b4b60;}
 .butt:hover { background: #b0a6ab; }
-.butt:active { background: #3b4b60; }
+.butt:active { background: rgb(59, 75, 96, .6); }
 
 .content {
     display: flex;
