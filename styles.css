@@ -227,13 +227,6 @@ a:visited {
 }
 
 #lib {
-    background: #FAFAFA;
-    border-radius: 100px;
-    width: min-content;
-    height: min-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 110%;
 }
 
