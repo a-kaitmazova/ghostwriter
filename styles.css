@@ -100,6 +100,7 @@ a:visited {
     user-select: none;
     outline: none;
     transition: 0.2s;
+    mix-blend-mode: hard-light;
 }
 .send-button-a:hover {
     color: #fda921;
