@@ -158,12 +158,11 @@ a:visited {
     color: #3b4b60;
     font-family: 'Comfortaa', cursive;
     font-weight: 200;
-    text-decoration: none;
+    font-size: larger;
     user-select: none;
     padding: .5em 2em;
     outline: none;
     border: 1px solid;
-    border-radius: 1px;
     transition: 0.2s;
     background: #fafafa;
     border-radius: 25px;
