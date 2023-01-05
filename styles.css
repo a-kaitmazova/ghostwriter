@@ -41,6 +41,7 @@ body {
 }
 
 #lib-butt {
+    font-size: 110%;
     padding: 1em;
 }
 
@@ -227,7 +228,13 @@ a:visited {
 }
 
 #lib {
-    font-size: 110%;
+    background: #FAFAFA;
+    border-radius: 100px;
+    width: min-content;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #lib-title {
