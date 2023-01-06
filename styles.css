@@ -283,3 +283,10 @@ a:visited {
 .ghosts-p {
     color: #627281;
 }
+
+.text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: flex-start;
+}
