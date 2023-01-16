@@ -256,7 +256,8 @@ a:visited {
 }
 
 .lib-content_filler {
-    content: ' ';
+    display: flex;
+    justify-content: center;
     width: 25%;
     height: 100%;
     background-color: rgb(225, 225, 225, .4);
@@ -289,4 +290,9 @@ a:visited {
     height: 100%;
     display: flex;
     align-content: flex-start;
+}
+
+#text {
+    padding: 0 10px;
+    font-family: 'Sofia Sans', sans-serif;
 }
